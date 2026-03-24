@@ -1,11 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>demo Pages</h1>
-</body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        padding: 10px;
+      }
+
+      .herosection {
+        width: 100%;
+        height: 920px;
+        /* background-color: red; */
+        display: flex;
+        background-image: url("./images/BG.png");
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        font-family: poppins;
+        /* margin: 0 10px ; */
+        /* margin-left: 40px; */
+        /* margin-right: 40px; */
+      }
+      .herosection h3 {
+        font-size: 19px;
+      }
+
+      .herosection h1 {
+        font-size: 40px;
+        width: 500px;
+        text-align: center;
+      }
+      .productsection{
+        width: 1100px;
+        height: 791px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -160px;
+      }
+      .product{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        column-gap: 30px;
+        row-gap: 30px;
+      }
+      .product-items{
+        width: 255px;
+        height: auto;
+        background: linear-gradient(180deg, #ffffff 0%, #f8f7f3 100%);
+        border-radius: 0;
+        padding: 18px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="herosection">
+      <h3>Minimal Interior Design</h3>
+      <h1>We minimize your waste in every step of the process.</h1>
+    </div>
+
+    <div class="productsection">
+      <div class="product">
+        <div class="product-items">
+          <h3>Living Room</h3>
+          <p>23 items</p>
+          <img src="./images/Sofa.png" alt="" />
+        </div>
+         <div class="product-items">
+          <h3>Living Room</h3>
+          <p>23 items</p>
+          <img src="./images/Sofa.png" alt="" />
+        </div>
+         <div class="product-items">
+          <h3>Living Room</h3>
+          <p>23 items</p>
+          <img src="./images/Sofa.png" alt="" />
+        </div>
+      </div>
+           <div class="product">
+        <div class="product-items">
+          <h3>Living Room</h3>
+          <p>23 items</p>
+          <img src="./images/Sofa.png" alt="" />
+        </div>
+         <div class="product-items">
+          <h3>Living Room</h3>
+          <p>23 items</p>
+          <img src="./images/Sofa.png" alt="" />
+        </div>
+         <div class="product-items">
+          <h3>Living Room</h3>
+          <p>23 items</p>
+          <img src="./images/Sofa.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
